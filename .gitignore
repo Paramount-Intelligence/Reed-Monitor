@@ -1,0 +1,9 @@
+.env
+*.env
+**/__pycache__/
+*.pyc
+*.pyo
+venv/
+reed_page.html
+reed_detail.html
+reed_sorted.html
