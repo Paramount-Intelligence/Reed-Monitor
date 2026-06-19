@@ -46,7 +46,7 @@ class Config:
     MONGO_URI    = os.getenv("MONGO_URI", "mongodb://localhost:27017/")
 
     BASE_URL   = "https://www.reed.co.uk"
-    TARGET_URL = "https://www.reed.co.uk/jobs/it-jobs?sortby=DisplayDate"
+    TARGET_URL = os.getenv("TARGET_URL", "https://www.reed.co.uk/jobs/work-from-home-jobs?sortby=DisplayDate")
 
 # CLI Options
 DEBUG_MODE = "--debug" in sys.argv
